@@ -1,28 +1,16 @@
 
-Installation information
+TOOLTIPPED API
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This is a simple modding API that can be expanded upon to help new players understand the minecraft world better. Blocks can be added or modified easily through data, translations, and custom classes.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+API VERSIONS
+=======
 
-> **Note**: For Eclipse, use tasks in `Launch Group` instead of ones founds in `Java Application`. A preparation task must run before launching the game. NeoGradle uses launch groups to do these subsequently.
+To add your own block, modded or vanilla, create a `"tooltipped.json"` file in the `"minecraft:tags/block"` directory and add your block, then create a translation string in your lang file using the format `"block.example_mod.example_item.howto"`. If you want different translations based on blockstates, or otherwise need a custom condition, you can write your own simple class.
+Example classes can be found below.
+[1.19.2](https://github.com/SilverfishStone/Tooltipped/tree/main/src/main/java/net/silverfishstone/tooltips/APIs/1.19.2).
+[1.20.1](https://github.com/SilverfishStone/Tooltipped/tree/main/src/main/java/net/silverfishstone/tooltips/APIs/1.20.1).
+[1.21](https://github.com/SilverfishStone/Tooltipped/tree/main/src/main/java/net/silverfishstone/tooltips/APIs/1.21).
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+##### *I plan on adding support for items and more in the future.*
