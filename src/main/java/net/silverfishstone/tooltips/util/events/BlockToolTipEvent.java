@@ -20,7 +20,7 @@ import net.silverfishstone.tooltips.config.TooltipConfig;
 import net.silverfishstone.tooltips.util.TooltipTags;
 
 @EventBusSubscriber(modid = Tooltiped.MODID)
-public class ToolTipShowEvent {
+public class BlockToolTipEvent {
 
     @SubscribeEvent
     public static void playerRightClick (PlayerInteractEvent.RightClickBlock event) {

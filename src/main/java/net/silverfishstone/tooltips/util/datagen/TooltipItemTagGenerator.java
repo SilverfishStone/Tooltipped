@@ -27,6 +27,11 @@ public class TooltipItemTagGenerator extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(TooltipTags.Items.ENDER_EYE)
                 .add(Items.ENDER_EYE);
+
+        this.tag(TooltipTags.Items.TOOLTIPED)
+                .add(Items.ENDER_EYE,
+                        Items.TRIAL_KEY,
+                        Items.TRIDENT);
     }
 }
 

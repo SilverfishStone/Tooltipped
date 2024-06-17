@@ -30,6 +30,8 @@ public class TooltipTags {
         public static final TagKey<Item> COOKABLE_FOOD = tag("cookeable_food");
         public static final TagKey<Item> BUCKETS = tag("buckets");
         public static final TagKey<Item> ENDER_EYE = tag("ender_eye");
+        public static final TagKey<Item> TOOLTIPED = tag("tooltiped");
+        public static final TagKey<Item> DISCS = tag("discs");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(ResourceLocation.parse(name));
