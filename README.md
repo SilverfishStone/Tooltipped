@@ -2,7 +2,7 @@
 TOOLTIPPED API
 =======
 
-This is a simple modding API that can be expanded upon to help new players understand the minecraft world better. Blocks can be added or modified easily through data, translations, and custom classes.
+This is a simple modding API that can be expanded upon to help new players understand the minecraft world better. Blocks and items can be added or modified easily through data, translations, and custom classes.
 
 API VERSIONS
 =======
