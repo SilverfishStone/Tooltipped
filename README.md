@@ -12,5 +12,3 @@ Example classes can be found below.
 [1.19.2](https://github.com/SilverfishStone/Tooltipped/tree/main/src/main/java/net/silverfishstone/tooltips/APIs/1.19.2).
 [1.20.1](https://github.com/SilverfishStone/Tooltipped/tree/main/src/main/java/net/silverfishstone/tooltips/APIs/1.20.1).
 [1.21](https://github.com/SilverfishStone/Tooltipped/tree/main/src/main/java/net/silverfishstone/tooltips/APIs/1.21).
-
-##### *I plan on adding support for items and more in the future.*
